@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     break;
             }
             textResult.setText(R.string.t1);
-            textResult.append(String.format("%.2f", result + ""));
+            textResult.append(String.format("%.2f", result) + "");
         }
     };
 }
